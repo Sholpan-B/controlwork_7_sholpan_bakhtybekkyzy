@@ -13,7 +13,7 @@ class StatusChoice(TextChoices):
 class GuestBook(models.Model):
     name = models.CharField(max_length=30, null=False, blank=False, verbose_name='Имя гостя')
     email = models.EmailField(max_length=254, null=False, blank=False, verbose_name='e-mail')
-    text = models.TextField(max_length=3000, null=False, blank=False, verbose_name='Имя гостя')
+    text = models.TextField(max_length=3000, null=False, blank=False, verbose_name='текст')
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='Дата создания')
     updated_at = models.DateTimeField(auto_now=True, verbose_name='Дата и время обновления')
     status = models.CharField(
