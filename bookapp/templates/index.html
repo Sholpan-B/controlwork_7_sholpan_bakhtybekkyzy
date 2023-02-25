@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block title %}Guest Book{% endblock %}
+{% block menu %}
+{% endblock %}
+{% block content %}
+    <h1>Гостевая книга</h1>
+    <table>
+    <tr>
+        <th></th>
+        <th></th>
+    </tr>
+    <form action="{% url 'search' %}" class="d-flex" role="search">
+        {% csrf_token %}
+        {{ search_form.search }}
+        <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Поиск</button>
+    </form>
+    {%  for guest in guests %}
+        <div class="card mt-3" style="width: 700px;">
+            <div class="card-body bg-light">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h5 class="card-title text-dark">
+                             {{ guest.name }} ({{ guest.email }})
+                        </h5>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <a class="btn-primary" href="{% url 'guest_edit' guest.pk %}">
+                                <i class="fa-solid fa-user-pen fa-lg"></i></a>
+                            <a class="btn-primary" href="{% url 'guest_delete' guest.pk %}">
+                                <i class="fa-solid fa-user-minus fa-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <p class="card-text">{{ guest.text }}</p>
+            </div>
+        </div>
+    {% empty %}
+    <h3>No items in list</h3>
+    {% endfor %}
+</table>
+<br><br>
+{% endblock content %}

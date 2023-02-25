@@ -1,0 +1,33 @@
+{% load static %}
+{% load django_bootstrap5 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+{% bootstrap_messages %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="https://kit.fontawesome.com/73fa89ad74.js" crossorigin="anonymous"></script>
+    <title>{% block title %}Guest Book{% endblock %}</title>
+</head>
+<body>
+<div class="navbar">
+    <div class="menu">
+        <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link link-light" href="{% url 'guest_add' %}">Добавить запись</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-light" href="{% url 'index' %}">На главную</a>
+                </li>
+        </ul>
+        {% block menu %}{% endblock %}
+    </div>
+</div>
+
+<div class="container">
+    {% block content %}{% endblock %}
+</div>
+</body>
+</html>

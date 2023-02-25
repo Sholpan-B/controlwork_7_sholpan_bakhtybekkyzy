@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+
+{% block title %}Guest confirm delete{% endblock %}
+
+{% block menu %}
+
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>Вы точно хотите удалить данную запись?</h1>
+    <p>Author: {{ guest.name }} ({{ guest.email }})</p>
+     <form action="{% url 'confirm_delete' guest.pk %}" method="post" class="form">
+        {% csrf_token %}
+        {% bootstrap_button button_type="submit"  content="Да " %}
+    </form>
+    <form action="{% url 'index' %}" method="post" class="form">
+        {% csrf_token %}
+        {% bootstrap_button button_type="submit" content="Нет" %}
+    </form>
+    </div>
+{% endblock %}
