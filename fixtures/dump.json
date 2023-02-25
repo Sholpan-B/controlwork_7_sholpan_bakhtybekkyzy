@@ -1,0 +1,74 @@
+[
+{
+  "model": "bookapp.guestbook",
+  "pk": 1,
+  "fields": {
+    "name": "John Doe",
+    "email": "johndoe@gmail.com",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a semper odio. Etiam blandit lacus sed risus facilisis, ac dapibus libero bibendum. Pellentesque eget purus vel mauris ullamcorper efficitur id eu nunc. Ut ultricies augue pretium, consectetur neque id, tristique quam. Donec accumsan vulputate tempus. Cras varius posuere libero id euismod. Maecenas ut eros mauris. Pellentesque commodo nunc justo, a bibendum est porttitor a. Mauris aliquam metus sagittis neque auctor, quis hendrerit lacus semper. Sed ullamcorper tincidunt neque, vel eleifend massa auctor et. Vestibulum rhoncus elit massa, in lacinia diam gravida facilisis. Nulla ultrices lacus non felis vestibulum lacinia.",
+    "created_at": "2023-02-25T06:43:50.708Z",
+    "updated_at": "2023-02-25T06:43:50.708Z",
+    "status": "ACTIVE"
+  }
+},
+{
+  "model": "bookapp.guestbook",
+  "pk": 2,
+  "fields": {
+    "name": "Vasya Terkin",
+    "email": "vasya@mail.ru",
+    "text": "Proin quis semper arcu. Aliquam imperdiet consequat risus, interdum vulputate arcu cursus non. Nullam faucibus, urna vitae porttitor porta, lectus turpis tincidunt risus, sed mattis ipsum diam eu turpis. Vestibulum tincidunt faucibus nisi. Vivamus ultricies est nec ex luctus fermentum. Nulla facilisi. Aliquam sed nisi gravida, finibus metus non, congue nunc. Integer hendrerit lorem cursus nisi molestie hendrerit. Morbi a risus nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris eu nulla leo. Donec suscipit mi risus.",
+    "created_at": "2023-02-25T06:44:39.622Z",
+    "updated_at": "2023-02-25T06:44:39.622Z",
+    "status": "BLOCKED"
+  }
+},
+{
+  "model": "bookapp.guestbook",
+  "pk": 3,
+  "fields": {
+    "name": "Donald Trump",
+    "email": "trump@yahoo.com",
+    "text": "Quisque in dolor ut est fringilla ultricies at a dolor. Nam posuere, risus vitae facilisis imperdiet, sapien lectus mollis tellus, sed elementum erat neque quis quam. Quisque gravida erat quis ante facilisis, at volutpat justo finibus. Quisque vulputate lorem diam, vel rutrum neque feugiat hendrerit. Aenean dignissim dictum justo, cursus tincidunt tortor lacinia sed. Donec cursus, nibh vel molestie posuere, tellus ligula gravida tellus, in lobortis ante diam nec leo. Quisque interdum, orci id ultrices consequat, sem erat laoreet nulla, eget fringilla felis erat sed nibh. Fusce mollis sem vitae ex commodo malesuada. Fusce cursus rutrum ex et condimentum.",
+    "created_at": "2023-02-25T06:45:57.968Z",
+    "updated_at": "2023-02-25T06:45:57.968Z",
+    "status": "BLOCKED"
+  }
+},
+{
+  "model": "bookapp.guestbook",
+  "pk": 4,
+  "fields": {
+    "name": "Jared Joseph Leto",
+    "email": "leto71@yahoo.com",
+    "text": "Morbi lobortis arcu ut ex viverra varius. Nunc scelerisque ac augue non condimentum. Fusce dapibus sapien nisl, non blandit nibh fermentum vitae. Phasellus pulvinar sodales nisi sed ullamcorper. Vivamus turpis neque, lobortis id nulla at, molestie cursus orci. Aliquam nec viverra orci, sed mollis eros. Morbi non elit auctor, lobortis eros quis, laoreet tellus. Integer lacinia leo et urna vestibulum, ac condimentum metus imperdiet. Donec ut aliquam nibh, nec dictum nunc. Maecenas ut arcu laoreet, luctus ex eget, scelerisque enim. Phasellus condimentum condimentum ultricies. Sed pellentesque ante quis ex mollis euismod. Aenean bibendum elementum nisl, nec eleifend risus bibendum non.",
+    "created_at": "2023-02-25T06:48:01.019Z",
+    "updated_at": "2023-02-25T06:48:01.019Z",
+    "status": "ACTIVE"
+  }
+},
+{
+  "model": "bookapp.guestbook",
+  "pk": 5,
+  "fields": {
+    "name": "Matthew Robert Smith",
+    "email": "robert@gmail.com",
+    "text": "Proin quis semper arcu. Aliquam imperdiet consequat risus, interdum vulputate arcu cursus non. Nullam faucibus, urna vitae porttitor porta, lectus turpis tincidunt risus, sed mattis ipsum diam eu turpis. Vestibulum tincidunt faucibus nisi. Vivamus ultricies est nec ex luctus fermentum. Nulla facilisi. Aliquam sed nisi gravida, finibus metus non, congue nunc. Integer hendrerit lorem cursus nisi molestie hendrerit. Morbi a risus nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris eu nulla leo. Donec suscipit mi risus.",
+    "created_at": "2023-02-25T06:49:04.555Z",
+    "updated_at": "2023-02-25T06:49:04.555Z",
+    "status": "ACTIVE"
+  }
+},
+{
+  "model": "bookapp.guestbook",
+  "pk": 6,
+  "fields": {
+    "name": "Sandra Bullock",
+    "email": "sandra@gmail.com",
+    "text": "\"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...\"",
+    "created_at": "2023-02-25T06:51:28.144Z",
+    "updated_at": "2023-02-25T06:51:28.144Z",
+    "status": "ACTIVE"
+  }
+}
+]
